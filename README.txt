@@ -1,19 +1,9 @@
-prompt user for input:
-
-user entered password? | yes
-
-if user entered password
-    store entered password in variable "password"
-
-prompt user for second input:
-
-second input is equal to password? | yes
-
-if second input is equal to password
-    print password and incorrect inputs
-if second input is not equal to password
-    request input until input is equal to password
-    store incorrect inputs
-if second input matches password
-    print "password"
-    print all incorrect inputs
+1. Ask user to input password
+2. Store password in variable "password"
+3. Ask user for a second input
+4. If second input is not the same as password then
+    store second input in a list
+    ask user for input again
+5. If second input is the same as password then
+    print out the correct password
+    print out the content of the list of second inputs
